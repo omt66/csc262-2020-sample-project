@@ -6,9 +6,9 @@ package omt.finalprjpart1;
  * @author omt
  */
 public class Grid {
-    char[][] grid;
-    int nofRows = 10;
-    int nofCols = 10;
+    private char[][] grid;
+    int nofRows = 10; // Default number of rows
+    int nofCols = 10; // Default number of columns
 
     public Grid() {
         init();
